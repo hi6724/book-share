@@ -1,0 +1,133 @@
+@import '../../styles/variables';
+.club-members > .slick-list > .slick-track {
+  > div {
+    height: 5rem;
+  }
+  margin-left: 0;
+  img {
+    margin: 0 auto;
+    width: calc(100% - 0.6rem);
+    height: calc(100% - 0.6rem);
+    aspect-ratio: 1;
+  }
+  .shadow-wrapper-place {
+    display: none;
+  }
+  .content-place {
+    height: 1rem;
+    bottom: -0.6rem;
+    color: black;
+    width: 100%;
+    left: 0%;
+    h2 {
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+.book-club-detail-container {
+  display: flex;
+  flex-direction: column;
+  background-color: $beige;
+  gap: 3rem;
+  > div {
+    padding: 0 10px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .book-club-detail-header {
+    padding: 0;
+
+    img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 0.5rem;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+      font-size: 1.4rem;
+      font-weight: 600;
+      padding: 0 10px;
+    }
+    p {
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .book-club-detail-meta {
+    h2 {
+      margin-bottom: 1rem;
+    }
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    > div {
+      width: 100%;
+      height: 1.5rem;
+      > div {
+        width: 40%;
+        gap: 0.5rem;
+      }
+    }
+  }
+  .book-club-detail-description {
+    p {
+      margin-top: 1rem;
+      font-weight: 400;
+    }
+  }
+  .recommend-container {
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+  .book-club-detail-users {
+    h2 {
+      margin-bottom: 1rem;
+    }
+    > div {
+      position: relative;
+      > img {
+        position: absolute;
+        top: -1rem;
+        width: 2rem;
+        left: 1rem;
+      }
+    }
+  }
+}
+.meta-data-container {
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+.meta-data {
+  .content-place {
+    height: 80%;
+    width: 80%;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    transform: translate(10%, 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      overflow: auto;
+      font-size: 1.6rem;
+      line-height: normal;
+      margin: 10px 0 0 0;
+    }
+    p {
+      font-weight: 300;
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+  }
+}
